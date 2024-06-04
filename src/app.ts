@@ -12,6 +12,10 @@ app.get('/hello', (req:Request, res:Response) => {
     res.send("Hello World");
 });
 
+app.get("/jenkins", (req:Request, res:Response) => {
+    res.send("Hello Jenkins!!!");
+});
+
 app.get('/bye', (req:Request, res:Response) => {
     res.send("Bye World");
 });
