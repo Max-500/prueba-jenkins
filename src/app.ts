@@ -13,7 +13,7 @@ app.get('/hello', (req:Request, res:Response) => {
 });
 
 app.get('/api/v1/welcome', (req: Request, res: Response) => {
-    res.send("Welcome to the updated Node.js application!");
+    res.send("Welcome again to the updated Node.js application!");
 });
 
 app.get('/bye', (req:Request, res:Response) => {
