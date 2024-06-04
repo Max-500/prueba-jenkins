@@ -12,10 +12,6 @@ app.get('/hello', (req, res) => {
     res.send("Hello World");
 });
 
-app.get('/api/v1/welcome', (req, res) => {
-    res.send("Welcome to the updated Node.js application!");
-});
-
 app.get('/bye', (req, res) => {
     res.send("Bye World");
 });
@@ -23,6 +19,3 @@ app.get('/bye', (req, res) => {
 app.listen(port, () => {
     console.log(`SERVER RUNNING IN http://localhost:${port}.`);
 });
-
-
-
