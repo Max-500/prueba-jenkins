@@ -13,7 +13,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/jenkins', (req, res) => {
-    res.send("Hello Jenkins");
+    res.send("Hello Jenkins")
 });
 
 app.get('/bye', (req, res) => {
